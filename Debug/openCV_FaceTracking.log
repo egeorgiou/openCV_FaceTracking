@@ -1,0 +1,30 @@
+﻿Build started 2/10/2013 3:32:23 PM.
+     1>Project "c:\Users\evangelosgeorgiou\documents\visual studio 2010\Projects\openCV_FaceTracking\openCV_FaceTracking\openCV_FaceTracking.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "c:\users\evangelosgeorgiou\documents\visual studio 2010\Projects\openCV_FaceTracking\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\openCV_FaceTracking.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\opencv\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\evangelosgeorgiou\documents\visual studio 2010\projects\opencv_facetracking\opencv_facetracking\main.cpp(46): warning C4018: '<' : signed/unsigned mismatch
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\openCV_FaceTracking.exe.embed.manifest.res" Debug\openCV_FaceTracking_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\evangelosgeorgiou\documents\visual studio 2010\Projects\openCV_FaceTracking\Debug\openCV_FaceTracking.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x86\vc10\lib opencv_core243d.lib opencv_imgproc243d.lib opencv_highgui243d.lib opencv_ml243d.lib opencv_video243d.lib opencv_features2d243d.lib opencv_calib3d243d.lib opencv_objdetect243d.lib opencv_contrib243d.lib opencv_legacy243d.lib opencv_flann243d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\openCV_FaceTracking.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\evangelosgeorgiou\documents\visual studio 2010\Projects\openCV_FaceTracking\Debug\openCV_FaceTracking.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\evangelosgeorgiou\documents\visual studio 2010\Projects\openCV_FaceTracking\Debug\openCV_FaceTracking.lib" /MACHINE:X86 Debug\openCV_FaceTracking.exe.embed.manifest.res
+         Debug\main.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\openCV_FaceTracking.exe.embed.manifest" /manifest Debug\openCV_FaceTracking.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\openCV_FaceTracking.exe.embed.manifest.res" Debug\openCV_FaceTracking_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\evangelosgeorgiou\documents\visual studio 2010\Projects\openCV_FaceTracking\Debug\openCV_FaceTracking.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x86\vc10\lib opencv_core243d.lib opencv_imgproc243d.lib opencv_highgui243d.lib opencv_ml243d.lib opencv_video243d.lib opencv_features2d243d.lib opencv_calib3d243d.lib opencv_objdetect243d.lib opencv_contrib243d.lib opencv_legacy243d.lib opencv_flann243d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\openCV_FaceTracking.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\evangelosgeorgiou\documents\visual studio 2010\Projects\openCV_FaceTracking\Debug\openCV_FaceTracking.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\evangelosgeorgiou\documents\visual studio 2010\Projects\openCV_FaceTracking\Debug\openCV_FaceTracking.lib" /MACHINE:X86 Debug\openCV_FaceTracking.exe.embed.manifest.res
+         Debug\main.obj
+         openCV_FaceTracking.vcxproj -> c:\users\evangelosgeorgiou\documents\visual studio 2010\Projects\openCV_FaceTracking\Debug\openCV_FaceTracking.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\openCV_FaceTracking.unsuccessfulbuild".
+         Touching "Debug\openCV_FaceTracking.lastbuildstate".
+     1>Done Building Project "c:\Users\evangelosgeorgiou\documents\visual studio 2010\Projects\openCV_FaceTracking\openCV_FaceTracking\openCV_FaceTracking.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.57
